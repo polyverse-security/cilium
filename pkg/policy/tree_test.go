@@ -18,6 +18,7 @@ import (
 	"encoding/json"
 
 	"github.com/cilium/cilium/pkg/labels"
+	"github.com/cilium/cilium/pkg/policy/api"
 
 	. "gopkg.in/check.v1"
 )
@@ -275,7 +276,7 @@ func (ds *PolicyTestSuite) TestAlwaysAllow(c *C) {
 	c.Assert(err, IsNil)
 
 	decision := tree.AllowsRLocked(defaultCtx)
-	c.Assert(decision, Equals, ACCEPT)
+	c.Assert(decision, Equals, api.ACCEPT)
 }
 
 func (ds *PolicyTestSuite) TestDenyOverwrite(c *C) {
@@ -307,7 +308,7 @@ func (ds *PolicyTestSuite) TestDenyOverwrite(c *C) {
 	c.Assert(err, IsNil)
 
 	decision := tree.AllowsRLocked(defaultCtx)
-	c.Assert(decision, Equals, DENY)
+	c.Assert(decision, Equals, api.DENY)
 }
 
 func (ds *PolicyTestSuite) TestRulePrecedence(c *C) {
@@ -331,7 +332,7 @@ func (ds *PolicyTestSuite) TestRulePrecedence(c *C) {
 	c.Assert(err, IsNil)
 
 	decision := tree.AllowsRLocked(defaultCtx)
-	c.Assert(decision, Equals, DENY)
+	c.Assert(decision, Equals, api.DENY)
 }
 
 func (ds *PolicyTestSuite) TestOutsideCoverage(c *C) {
