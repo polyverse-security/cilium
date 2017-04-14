@@ -26,11 +26,16 @@ import (
 
 // Node to define hierarchy of rules
 type Node struct {
-	path      string
-	Name      string           `json:"name"`
-	Parent    *Node            `json:"-"`
-	Rules     []PolicyRule     `json:"rules,omitempty"`
-	Children  map[string]*Node `json:"children,omitempty"`
+	path     string
+	Name     string           `json:"name"`
+	Parent   *Node            `json:"-"`
+	Rules    []PolicyRule     `json:"rules,omitempty"`
+	Children map[string]*Node `json:"children,omitempty"`
+
+	// CoverAll marks policy nodes which should always have their
+	// rules applied regardless of whether the name/path of the node
+	// matches any of the labels in the search context.
+	CoverAll  bool `json:"coverAll,omitempty"`
 	mergeable bool
 	resolved  bool
 }
@@ -170,6 +175,10 @@ func coversLabel(l *labels.Label, path string) bool {
 }
 
 func (n *Node) Covers(ctx *SearchContext) bool {
+	if n.CoverAll {
+		return true
+	}
+
 	for _, v := range ctx.To {
 		if coversLabel(v, n.Path()) {
 			return true
