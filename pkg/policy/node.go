@@ -38,6 +38,9 @@ type Node struct {
 	CoverAll  bool `json:"coverAll,omitempty"`
 	mergeable bool
 	resolved  bool
+
+	// persistent nodes cannot be deleted
+	persistent bool
 }
 
 func NewNode(name string, parent *Node) *Node {
