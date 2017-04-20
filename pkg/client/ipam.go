@@ -15,8 +15,8 @@
 package client
 
 import (
-	"github.com/cilium/cilium/api/v1/client/ipam"
-	"github.com/cilium/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/api/v1/client/ipam"
+	"github.com/polyverse-security/cilium/api/v1/models"
 )
 
 const (

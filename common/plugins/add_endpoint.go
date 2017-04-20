@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os/exec"
 
-	"github.com/cilium/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/api/v1/models"
 
 	"github.com/op/go-logging"
 	"github.com/vishvananda/netlink"

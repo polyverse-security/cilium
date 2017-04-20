@@ -15,8 +15,8 @@
 package client
 
 import (
-	"github.com/cilium/cilium/api/v1/client/daemon"
-	"github.com/cilium/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/api/v1/client/daemon"
+	"github.com/polyverse-security/cilium/api/v1/models"
 )
 
 // ConfigGet returns a daemon configuration.

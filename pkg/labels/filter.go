@@ -20,7 +20,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cilium/cilium/common"
+	"github.com/polyverse-security/cilium/common"
 )
 
 const (

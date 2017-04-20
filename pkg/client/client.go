@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	clientapi "github.com/cilium/cilium/api/v1/client"
-	"github.com/cilium/cilium/daemon/defaults"
+	clientapi "github.com/polyverse-security/cilium/api/v1/client"
+	"github.com/polyverse-security/cilium/daemon/defaults"
 
 	runtime_client "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"

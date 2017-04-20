@@ -15,7 +15,7 @@
 package types
 
 import (
-	"github.com/cilium/cilium/pkg/option"
+	"github.com/polyverse-security/cilium/pkg/option"
 )
 
 type PingResponse struct {

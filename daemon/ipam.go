@@ -19,10 +19,10 @@ import (
 	"net"
 	"strings"
 
-	"github.com/cilium/cilium/api/v1/models"
-	. "github.com/cilium/cilium/api/v1/server/restapi/ipam"
-	"github.com/cilium/cilium/pkg/apierror"
-	"github.com/cilium/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	. "github.com/polyverse-security/cilium/api/v1/server/restapi/ipam"
+	"github.com/polyverse-security/cilium/pkg/apierror"
+	"github.com/polyverse-security/cilium/pkg/endpoint"
 
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/swag"

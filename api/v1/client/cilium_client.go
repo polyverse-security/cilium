@@ -9,11 +9,11 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	"github.com/cilium/cilium/api/v1/client/daemon"
-	"github.com/cilium/cilium/api/v1/client/endpoint"
-	"github.com/cilium/cilium/api/v1/client/ipam"
-	"github.com/cilium/cilium/api/v1/client/policy"
-	"github.com/cilium/cilium/api/v1/client/service"
+	"github.com/polyverse-security/cilium/api/v1/client/daemon"
+	"github.com/polyverse-security/cilium/api/v1/client/endpoint"
+	"github.com/polyverse-security/cilium/api/v1/client/ipam"
+	"github.com/polyverse-security/cilium/api/v1/client/policy"
+	"github.com/polyverse-security/cilium/api/v1/client/service"
 )
 
 // Default cilium HTTP client.

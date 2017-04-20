@@ -21,12 +21,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cilium/cilium/api/v1/client/endpoint"
-	"github.com/cilium/cilium/api/v1/models"
-	"github.com/cilium/cilium/common/addressing"
-	"github.com/cilium/cilium/common/plugins"
-	"github.com/cilium/cilium/pkg/client"
-	endpointPkg "github.com/cilium/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/api/v1/client/endpoint"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/common/addressing"
+	"github.com/polyverse-security/cilium/common/plugins"
+	"github.com/polyverse-security/cilium/pkg/client"
+	endpointPkg "github.com/polyverse-security/cilium/pkg/endpoint"
 
 	"github.com/docker/libnetwork/drivers/remote/api"
 	lnTypes "github.com/docker/libnetwork/types"

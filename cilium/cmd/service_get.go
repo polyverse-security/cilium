@@ -19,7 +19,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/cilium/cilium/common/types"
+	"github.com/polyverse-security/cilium/common/types"
 
 	"github.com/spf13/cobra"
 )

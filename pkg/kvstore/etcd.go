@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/common/types"
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/common/types"
+	"github.com/polyverse-security/cilium/pkg/policy"
 
 	client "github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/clientv3/concurrency"

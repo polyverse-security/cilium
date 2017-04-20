@@ -18,12 +18,12 @@ import (
 	"os"
 	"sync"
 
-	"github.com/cilium/cilium/api/v1/models"
-	. "github.com/cilium/cilium/api/v1/server/restapi/endpoint"
-	"github.com/cilium/cilium/pkg/apierror"
-	"github.com/cilium/cilium/pkg/endpoint"
-	"github.com/cilium/cilium/pkg/labels"
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	. "github.com/polyverse-security/cilium/api/v1/server/restapi/endpoint"
+	"github.com/polyverse-security/cilium/pkg/apierror"
+	"github.com/polyverse-security/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/policy"
 
 	"github.com/go-openapi/runtime/middleware"
 )

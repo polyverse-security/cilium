@@ -25,7 +25,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/pkg/policy"
 
 	"github.com/spf13/cobra"
 )

@@ -19,10 +19,10 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"github.com/cilium/cilium/api/v1/models"
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/pkg/endpoint"
-	"github.com/cilium/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/pkg/labels"
 
 	"github.com/spf13/cobra"
 )

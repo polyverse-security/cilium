@@ -13,7 +13,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	"github.com/cilium/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/api/v1/models"
 )
 
 // NewPutEndpointIDParams creates a new PutEndpointIDParams object

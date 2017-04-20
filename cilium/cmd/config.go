@@ -19,10 +19,10 @@ import (
 	"os"
 	"sort"
 
-	"github.com/cilium/cilium/api/v1/models"
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/daemon/options"
-	"github.com/cilium/cilium/pkg/option"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/daemon/options"
+	"github.com/polyverse-security/cilium/pkg/option"
 
 	"github.com/spf13/cobra"
 )

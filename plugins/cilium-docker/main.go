@@ -18,8 +18,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/plugins/cilium-docker/driver"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/plugins/cilium-docker/driver"
 
 	"fmt"
 	l "github.com/op/go-logging"

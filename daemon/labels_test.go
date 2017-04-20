@@ -21,14 +21,14 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/common/addressing"
-	"github.com/cilium/cilium/daemon/options"
-	"github.com/cilium/cilium/pkg/apierror"
-	"github.com/cilium/cilium/pkg/endpoint"
-	"github.com/cilium/cilium/pkg/labels"
-	"github.com/cilium/cilium/pkg/option"
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/common/addressing"
+	"github.com/polyverse-security/cilium/daemon/options"
+	"github.com/polyverse-security/cilium/pkg/apierror"
+	"github.com/polyverse-security/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/option"
+	"github.com/polyverse-security/cilium/pkg/policy"
 
 	. "gopkg.in/check.v1"
 )

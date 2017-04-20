@@ -17,8 +17,8 @@ package main
 import (
 	"time"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/pkg/policy"
 )
 
 // EnableKVStoreWatcher watches for kvstore changes in the common.LastFreeIDKeyPath key.

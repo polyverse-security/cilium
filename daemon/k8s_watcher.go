@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/common/types"
-	"github.com/cilium/cilium/pkg/labels"
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/common/types"
+	"github.com/polyverse-security/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/policy"
 
 	"k8s.io/client-go/1.5/pkg/api/v1"
 	"k8s.io/client-go/1.5/pkg/apis/extensions/v1beta1"

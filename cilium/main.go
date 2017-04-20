@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/cilium/cilium/cilium/cmd"
+import "github.com/polyverse-security/cilium/cilium/cmd"
 
 func main() {
 	cmd.Execute()

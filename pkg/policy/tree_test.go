@@ -17,7 +17,7 @@ package policy
 import (
 	"encoding/json"
 
-	"github.com/cilium/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/labels"
 
 	. "gopkg.in/check.v1"
 )

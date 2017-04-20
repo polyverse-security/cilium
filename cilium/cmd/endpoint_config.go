@@ -17,9 +17,9 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/cilium/cilium/api/v1/models"
-	"github.com/cilium/cilium/pkg/endpoint"
-	"github.com/cilium/cilium/pkg/option"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/pkg/option"
 
 	"github.com/spf13/cobra"
 )

@@ -17,7 +17,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/cilium/cilium/pkg/version"
+	"github.com/polyverse-security/cilium/pkg/version"
 
 	"github.com/spf13/cobra"
 )

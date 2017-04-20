@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cilium/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/api/v1/models"
 
 	"github.com/go-openapi/runtime"
 )

@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cilium/cilium/pkg/bpf"
-	"github.com/cilium/cilium/pkg/endpoint"
-	"github.com/cilium/cilium/pkg/maps/ctmap"
+	"github.com/polyverse-security/cilium/pkg/bpf"
+	"github.com/polyverse-security/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/pkg/maps/ctmap"
 )
 
 const (

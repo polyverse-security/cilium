@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cilium/cilium/pkg/maps/policymap"
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/pkg/maps/policymap"
+	"github.com/polyverse-security/cilium/pkg/policy"
 )
 
 type LogstashStat struct {

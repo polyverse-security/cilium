@@ -27,9 +27,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/pkg/bpf"
-	"github.com/cilium/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/pkg/bpf"
+	"github.com/polyverse-security/cilium/pkg/endpoint"
 )
 
 // LXCMap is an internal representation of an eBPF LXC Map.

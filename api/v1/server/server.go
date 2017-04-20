@@ -19,8 +19,8 @@ import (
 	flags "github.com/jessevdk/go-flags"
 	graceful "github.com/tylerb/graceful"
 
-	"github.com/cilium/cilium/api/v1/server/restapi"
-	"github.com/cilium/cilium/common"
+	"github.com/polyverse-security/cilium/api/v1/server/restapi"
+	"github.com/polyverse-security/cilium/common"
 )
 
 const (

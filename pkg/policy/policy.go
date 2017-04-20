@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cilium/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/labels"
 
 	"github.com/op/go-logging"
 )

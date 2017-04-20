@@ -17,7 +17,7 @@ package bpfdebug
 import (
 	"fmt"
 
-	"github.com/cilium/cilium/common"
+	"github.com/polyverse-security/cilium/common"
 )
 
 // Must be synchronized with <bpf/lib/common.h>

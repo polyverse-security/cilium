@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/cilium/cilium/pkg/bpf"
-	"github.com/cilium/cilium/pkg/bpfdebug"
+	"github.com/polyverse-security/cilium/pkg/bpf"
+	"github.com/polyverse-security/cilium/pkg/bpfdebug"
 
 	"github.com/spf13/cobra"
 )

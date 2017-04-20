@@ -8,7 +8,7 @@ import (
 	runtime "github.com/go-openapi/runtime"
 	graceful "github.com/tylerb/graceful"
 
-	"github.com/cilium/cilium/api/v1/server/restapi"
+	"github.com/polyverse-security/cilium/api/v1/server/restapi"
 )
 
 // This file is safe to edit. Once it exists it will not be overwritten

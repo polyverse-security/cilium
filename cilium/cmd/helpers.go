@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cilium/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/pkg/endpoint"
 
 	"github.com/spf13/cobra"
 )

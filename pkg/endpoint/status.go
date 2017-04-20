@@ -17,7 +17,7 @@ package endpoint
 import (
 	"fmt"
 
-	"github.com/cilium/cilium/common"
+	"github.com/polyverse-security/cilium/common"
 )
 
 type StatusCode int

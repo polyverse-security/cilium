@@ -17,9 +17,9 @@ package cmd
 import (
 	"strconv"
 
-	"github.com/cilium/cilium/pkg/bpf"
-	"github.com/cilium/cilium/pkg/maps/policymap"
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/pkg/bpf"
+	"github.com/polyverse-security/cilium/pkg/maps/policymap"
+	"github.com/polyverse-security/cilium/pkg/policy"
 
 	"github.com/spf13/cobra"
 )

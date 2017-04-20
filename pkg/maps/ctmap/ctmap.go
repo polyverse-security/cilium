@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/common/types"
-	"github.com/cilium/cilium/pkg/bpf"
-	"github.com/cilium/cilium/pkg/u8proto"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/common/types"
+	"github.com/polyverse-security/cilium/pkg/bpf"
+	"github.com/polyverse-security/cilium/pkg/u8proto"
 )
 
 type CtMap struct {

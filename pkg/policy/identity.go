@@ -18,8 +18,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cilium/cilium/api/v1/models"
-	"github.com/cilium/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/pkg/labels"
 )
 
 const (

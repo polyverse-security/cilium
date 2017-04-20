@@ -15,8 +15,8 @@
 package client
 
 import (
-	"github.com/cilium/cilium/api/v1/client/policy"
-	"github.com/cilium/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/api/v1/client/policy"
+	"github.com/polyverse-security/cilium/api/v1/models"
 )
 
 // IdentityGet returns a security identity.

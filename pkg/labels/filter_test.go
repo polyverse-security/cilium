@@ -15,7 +15,7 @@
 package labels
 
 import (
-	"github.com/cilium/cilium/common"
+	"github.com/polyverse-security/cilium/common"
 
 	. "gopkg.in/check.v1"
 )

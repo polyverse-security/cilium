@@ -24,13 +24,13 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/pkg/geneve"
-	"github.com/cilium/cilium/pkg/maps/ctmap"
-	"github.com/cilium/cilium/pkg/maps/policymap"
-	"github.com/cilium/cilium/pkg/policy"
-	"github.com/cilium/cilium/pkg/u8proto"
-	"github.com/cilium/cilium/pkg/version"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/pkg/geneve"
+	"github.com/polyverse-security/cilium/pkg/maps/ctmap"
+	"github.com/polyverse-security/cilium/pkg/maps/policymap"
+	"github.com/polyverse-security/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/pkg/u8proto"
+	"github.com/polyverse-security/cilium/pkg/version"
 )
 
 const (

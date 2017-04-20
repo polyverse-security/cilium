@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cilium/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/labels"
 )
 
 // Node to define hierarchy of rules

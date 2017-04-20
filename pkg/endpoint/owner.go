@@ -15,9 +15,9 @@
 package endpoint
 
 import (
-	"github.com/cilium/cilium/pkg/labels"
-	"github.com/cilium/cilium/pkg/policy"
-	"github.com/cilium/cilium/pkg/proxy"
+	"github.com/polyverse-security/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/pkg/proxy"
 )
 
 // Owner is the interface defines the requirements for anybody owning policies.

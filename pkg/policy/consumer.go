@@ -17,9 +17,9 @@ package policy
 import (
 	"sync"
 
-	"github.com/cilium/cilium/api/v1/models"
-	"github.com/cilium/cilium/pkg/labels"
-	"github.com/cilium/cilium/pkg/maps/policymap"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/maps/policymap"
 )
 
 // Consumer is the entity that consumes a Consumable.

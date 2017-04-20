@@ -15,8 +15,8 @@
 package client
 
 import (
-	"github.com/cilium/cilium/api/v1/client/service"
-	"github.com/cilium/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/api/v1/client/service"
+	"github.com/polyverse-security/cilium/api/v1/models"
 )
 
 // GetServices returns a list of all services.

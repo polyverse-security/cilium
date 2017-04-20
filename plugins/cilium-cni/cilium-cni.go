@@ -23,12 +23,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cilium/cilium/api/v1/models"
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/common/addressing"
-	"github.com/cilium/cilium/common/plugins"
-	"github.com/cilium/cilium/pkg/client"
-	"github.com/cilium/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/common/addressing"
+	"github.com/polyverse-security/cilium/common/plugins"
+	"github.com/polyverse-security/cilium/pkg/client"
+	"github.com/polyverse-security/cilium/pkg/endpoint"
 
 	"github.com/containernetworking/cni/pkg/ns"
 	"github.com/containernetworking/cni/pkg/skel"

@@ -21,9 +21,9 @@ import (
 	"net"
 	"unsafe"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/common/types"
-	"github.com/cilium/cilium/pkg/bpf"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/common/types"
+	"github.com/polyverse-security/cilium/pkg/bpf"
 )
 
 var (

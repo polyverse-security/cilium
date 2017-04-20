@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cilium/cilium/api/v1/models"
-	"github.com/cilium/cilium/common/types"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/common/types"
 
 	"github.com/spf13/cobra"
 )

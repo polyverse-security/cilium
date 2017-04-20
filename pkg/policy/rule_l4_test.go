@@ -15,8 +15,8 @@
 package policy
 
 import (
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/pkg/labels"
 
 	. "gopkg.in/check.v1"
 )

@@ -19,11 +19,11 @@ import (
 	"net"
 	"sync"
 
-	"github.com/cilium/cilium/common/addressing"
-	"github.com/cilium/cilium/daemon/options"
-	"github.com/cilium/cilium/pkg/labels"
-	"github.com/cilium/cilium/pkg/maps/lxcmap"
-	"github.com/cilium/cilium/pkg/option"
+	"github.com/polyverse-security/cilium/common/addressing"
+	"github.com/polyverse-security/cilium/daemon/options"
+	"github.com/polyverse-security/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/maps/lxcmap"
+	"github.com/polyverse-security/cilium/pkg/option"
 
 	etcdAPI "github.com/coreos/etcd/clientv3"
 	consulAPI "github.com/hashicorp/consul/api"

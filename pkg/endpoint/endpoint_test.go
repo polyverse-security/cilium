@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cilium/cilium/api/v1/models"
-	"github.com/cilium/cilium/common/addressing"
-	"github.com/cilium/cilium/pkg/labels"
-	"github.com/cilium/cilium/pkg/mac"
-	"github.com/cilium/cilium/pkg/maps/policymap"
-	"github.com/cilium/cilium/pkg/option"
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/common/addressing"
+	"github.com/polyverse-security/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/mac"
+	"github.com/polyverse-security/cilium/pkg/maps/policymap"
+	"github.com/polyverse-security/cilium/pkg/option"
+	"github.com/polyverse-security/cilium/pkg/policy"
 
 	. "gopkg.in/check.v1"
 )

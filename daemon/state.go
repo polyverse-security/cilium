@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/pkg/endpoint"
-	"github.com/cilium/cilium/pkg/events"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/pkg/events"
 
 	dockerAPI "github.com/docker/engine-api/client"
 	ctx "golang.org/x/net/context"

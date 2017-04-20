@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/cilium/cilium/pkg/bpf"
+	"github.com/polyverse-security/cilium/pkg/bpf"
 )
 
 const (

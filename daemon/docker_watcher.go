@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/common/addressing"
-	"github.com/cilium/cilium/pkg/container"
-	"github.com/cilium/cilium/pkg/endpoint"
-	"github.com/cilium/cilium/pkg/labels"
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/common/addressing"
+	"github.com/polyverse-security/cilium/pkg/container"
+	"github.com/polyverse-security/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/policy"
 
 	dTypes "github.com/docker/engine-api/types"
 	dTypesEvents "github.com/docker/engine-api/types/events"

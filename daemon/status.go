@@ -17,8 +17,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/cilium/cilium/api/v1/models"
-	. "github.com/cilium/cilium/api/v1/server/restapi/daemon"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	. "github.com/polyverse-security/cilium/api/v1/server/restapi/daemon"
 
 	"github.com/go-openapi/runtime/middleware"
 	ctx "golang.org/x/net/context"

@@ -15,9 +15,9 @@
 package client
 
 import (
-	"github.com/cilium/cilium/api/v1/client/endpoint"
-	"github.com/cilium/cilium/api/v1/models"
-	pkgEndpoint "github.com/cilium/cilium/pkg/endpoint"
+	"github.com/polyverse-security/cilium/api/v1/client/endpoint"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	pkgEndpoint "github.com/polyverse-security/cilium/pkg/endpoint"
 )
 
 // EndpointList returns list of endpoints

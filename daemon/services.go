@@ -19,8 +19,8 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/common/types"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/common/types"
 )
 
 func (d *Daemon) updateL3n4AddrIDRef(id types.ServiceID, l3n4AddrID types.L3n4AddrID) error {

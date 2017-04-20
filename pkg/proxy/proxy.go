@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/pkg/policy"
 
 	"github.com/braintree/manners"
 	"github.com/op/go-logging"

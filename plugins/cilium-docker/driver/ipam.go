@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cilium/cilium/pkg/client"
+	"github.com/polyverse-security/cilium/pkg/client"
 
 	"github.com/docker/libnetwork/ipams/remote/api"
 )

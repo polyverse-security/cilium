@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cilium/cilium/common"
-	clientPkg "github.com/cilium/cilium/pkg/client"
+	"github.com/polyverse-security/cilium/common"
+	clientPkg "github.com/polyverse-security/cilium/pkg/client"
 
 	l "github.com/op/go-logging"
 	"github.com/spf13/cobra"

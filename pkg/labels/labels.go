@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cilium/cilium/api/v1/models"
-	"github.com/cilium/cilium/common"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/common"
 
 	"github.com/op/go-logging"
 )

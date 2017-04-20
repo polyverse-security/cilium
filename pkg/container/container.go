@@ -17,7 +17,7 @@ package container
 import (
 	"sync"
 
-	"github.com/cilium/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/labels"
 
 	dTypes "github.com/docker/engine-api/types"
 )

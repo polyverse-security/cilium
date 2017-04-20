@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/cilium/cilium/api/v1/models"
-	"github.com/cilium/cilium/common/addressing"
+	"github.com/polyverse-security/cilium/api/v1/models"
+	"github.com/polyverse-security/cilium/common/addressing"
 )
 
 // IPv6Gateway returns the IPv6 gateway address for endpoints.

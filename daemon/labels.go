@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"time"
 
-	. "github.com/cilium/cilium/api/v1/server/restapi/policy"
-	"github.com/cilium/cilium/common"
-	"github.com/cilium/cilium/pkg/apierror"
-	"github.com/cilium/cilium/pkg/events"
-	"github.com/cilium/cilium/pkg/labels"
-	"github.com/cilium/cilium/pkg/policy"
+	. "github.com/polyverse-security/cilium/api/v1/server/restapi/policy"
+	"github.com/polyverse-security/cilium/common"
+	"github.com/polyverse-security/cilium/pkg/apierror"
+	"github.com/polyverse-security/cilium/pkg/events"
+	"github.com/polyverse-security/cilium/pkg/labels"
+	"github.com/polyverse-security/cilium/pkg/policy"
 
 	"github.com/go-openapi/runtime/middleware"
 )

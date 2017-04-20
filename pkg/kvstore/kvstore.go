@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/cilium/cilium/common/types"
-	"github.com/cilium/cilium/pkg/policy"
+	"github.com/polyverse-security/cilium/common/types"
+	"github.com/polyverse-security/cilium/pkg/policy"
 
 	"github.com/op/go-logging"
 )

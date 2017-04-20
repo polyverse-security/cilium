@@ -16,11 +16,11 @@ import (
 	strfmt "github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/cilium/cilium/api/v1/server/restapi/daemon"
-	"github.com/cilium/cilium/api/v1/server/restapi/endpoint"
-	"github.com/cilium/cilium/api/v1/server/restapi/ipam"
-	"github.com/cilium/cilium/api/v1/server/restapi/policy"
-	"github.com/cilium/cilium/api/v1/server/restapi/service"
+	"github.com/polyverse-security/cilium/api/v1/server/restapi/daemon"
+	"github.com/polyverse-security/cilium/api/v1/server/restapi/endpoint"
+	"github.com/polyverse-security/cilium/api/v1/server/restapi/ipam"
+	"github.com/polyverse-security/cilium/api/v1/server/restapi/policy"
+	"github.com/polyverse-security/cilium/api/v1/server/restapi/service"
 )
 
 // NewCiliumAPI creates a new Cilium instance
