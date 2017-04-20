@@ -30,9 +30,9 @@ import (
 
 	"github.com/braintree/manners"
 	"github.com/op/go-logging"
+	"github.com/polyverse-security/js-route"
 	"github.com/spf13/viper"
 	"github.com/vulcand/oxy/forward"
-	"github.com/vulcand/route"
 )
 
 var (
@@ -240,7 +240,7 @@ func (p *Proxy) CreateOrUpdateRedirect(l4 *policy.L4Filter, id string, source Pr
 		FromPort: uint16(l4.Port),
 		ToPort:   to,
 		source:   source,
-		router:   route.New(),
+		router:   jsroute.New(),
 	}
 
 	redirect := http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {

@@ -26,7 +26,7 @@ import (
 	"github.com/cilium/cilium/pkg/labels"
 	"github.com/cilium/cilium/pkg/u8proto"
 
-	"github.com/vulcand/route"
+	"github.com/polyverse-security/js-route"
 )
 
 type AuxRule struct {
@@ -80,7 +80,7 @@ func (l4 *L4Filter) UnmarshalJSON(data []byte) error {
 	}
 
 	for _, r := range l4filter.L7Rules {
-		if !route.IsValid(r.Expr) {
+		if !jsroute.IsValid(r.Expr) {
 			return fmt.Errorf("invalid filter expression: %s", r.Expr)
 		}
 
