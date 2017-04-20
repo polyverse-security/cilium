@@ -79,8 +79,10 @@ func (l4 *L4Filter) UnmarshalJSON(data []byte) error {
 		}
 	}
 
+	jsr := jsroute.NewMux()
+
 	for _, r := range l4filter.L7Rules {
-		if !jsroute.IsValid(r.Expr) {
+		if !jsr.IsValid(r.Expr) {
 			return fmt.Errorf("invalid filter expression: %s", r.Expr)
 		}
 
