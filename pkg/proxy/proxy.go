@@ -196,8 +196,10 @@ func (p *Proxy) CreateOrUpdateRedirect(l4 *policy.L4Filter, id string, source Pr
 		return nil, fmt.Errorf("unknown L7 protocol \"%s\"", l4.L7Parser)
 	}
 
+	jsr := jsroute.NewMux()
+
 	for _, r := range l4.L7Rules {
-		if !route.IsValid(r.Expr) {
+		if !jsr.IsValid(r.Expr) {
 			return nil, fmt.Errorf("invalid filter expression: %s", r.Expr)
 		}
 	}
@@ -241,7 +243,7 @@ func (p *Proxy) CreateOrUpdateRedirect(l4 *policy.L4Filter, id string, source Pr
 		FromPort: uint16(l4.Port),
 		ToPort:   to,
 		source:   source,
-		router:   jsroute.New(),
+		router:   jsroute.NewMux(),
 	}
 
 	redirect := http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {
