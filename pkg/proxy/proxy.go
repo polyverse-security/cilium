@@ -33,6 +33,7 @@ import (
 	"github.com/polyverse-security/js-route"
 	"github.com/spf13/viper"
 	"github.com/vulcand/oxy/forward"
+	"github.com/vulcand/route"
 )
 
 var (
