@@ -1,7 +1,7 @@
 {
-	"ImportPath": "github.com/cilium/cilium",
-	"GoVersion": "go1.7",
-	"GodepVersion": "v77",
+	"ImportPath": "github.com/polyverse-security/cilium",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
 	"Packages": [
 		"./..."
 	],
@@ -53,6 +53,221 @@
 			"ImportPath": "github.com/braintree/manners",
 			"Comment": "0.4.0-15-g82a8879",
 			"Rev": "82a8879fc5fd0381fa8b2d8033b19bf255252088"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/client",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/client/daemon",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/client/endpoint",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/client/ipam",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/client/policy",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/client/service",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/models",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/server",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/server/restapi",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/server/restapi/daemon",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/server/restapi/endpoint",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/server/restapi/ipam",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/server/restapi/policy",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/api/v1/server/restapi/service",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/cilium/cmd",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/common",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/common/addressing",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/common/ipam",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/common/plugins",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/common/types",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/daemon/defaults",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/daemon/options",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/apierror",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/bpf",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/bpfdebug",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/client",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/container",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/endpoint",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/events",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/geneve",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/kvstore",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/labels",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/mac",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/maps/ctmap",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/maps/lbmap",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/maps/lxcmap",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/maps/policymap",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/option",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/policy",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/proxy",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/u8proto",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/pkg/version",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
+		},
+		{
+			"ImportPath": "github.com/cilium/cilium/plugins/cilium-docker/driver",
+			"Comment": "v0.8.2-46-g0b7308da",
+			"Rev": "0b7308da05c4d84331a03f956830edf39114958b"
 		},
 		{
 			"ImportPath": "github.com/cloudfoundry-incubator/candiedyaml",
@@ -610,6 +825,10 @@
 			"Rev": "22139eb5469018e7374b3e7ef653de37ffb44f72"
 		},
 		{
+			"ImportPath": "github.com/polyverse-security/js-route",
+			"Rev": "9033d35a1e2e849c0675c042dd488815f2074d51"
+		},
+		{
 			"ImportPath": "github.com/prometheus/client_golang/prometheus",
 			"Comment": "0.7.0-70-g15006a7",
 			"Rev": "15006a7ed88e73201c4e6142a2e66b54ae5fdf00"
@@ -634,6 +853,34 @@
 		{
 			"ImportPath": "github.com/prometheus/procfs",
 			"Rev": "406e5b7bfd8201a36e2bb5f7bdae0b03380c2ce8"
+		},
+		{
+			"ImportPath": "github.com/robertkrimen/otto",
+			"Rev": "53221230c215611a90762720c9042ac782ef74ee"
+		},
+		{
+			"ImportPath": "github.com/robertkrimen/otto/ast",
+			"Rev": "53221230c215611a90762720c9042ac782ef74ee"
+		},
+		{
+			"ImportPath": "github.com/robertkrimen/otto/dbg",
+			"Rev": "53221230c215611a90762720c9042ac782ef74ee"
+		},
+		{
+			"ImportPath": "github.com/robertkrimen/otto/file",
+			"Rev": "53221230c215611a90762720c9042ac782ef74ee"
+		},
+		{
+			"ImportPath": "github.com/robertkrimen/otto/parser",
+			"Rev": "53221230c215611a90762720c9042ac782ef74ee"
+		},
+		{
+			"ImportPath": "github.com/robertkrimen/otto/registry",
+			"Rev": "53221230c215611a90762720c9042ac782ef74ee"
+		},
+		{
+			"ImportPath": "github.com/robertkrimen/otto/token",
+			"Rev": "53221230c215611a90762720c9042ac782ef74ee"
 		},
 		{
 			"ImportPath": "github.com/spf13/afero",
@@ -699,6 +946,11 @@
 		{
 			"ImportPath": "github.com/vulcand/route",
 			"Rev": "61904570391bdf22252f8e376b49a57593d9124c"
+		},
+		{
+			"ImportPath": "github.com/vulcand/vulcand/router",
+			"Comment": "v0.8.0-beta.3-181-gd7df4d6",
+			"Rev": "d7df4d64d7cd7491ea1a445c0e5f23b24e2fbe12"
 		},
 		{
 			"ImportPath": "golang.org/x/crypto/ssh/terminal",
